@@ -1,0 +1,75 @@
+﻿<cms_category version="6.0">
+  <NewDataSet>
+    <cms_category>
+      <CategoryID>1083</CategoryID>
+      <CategoryDisplayName>Development</CategoryDisplayName>
+      <CategoryName>Development</CategoryName>
+      <CategoryDescription>Category contains development related articles</CategoryDescription>
+      <CategoryCount>0</CategoryCount>
+      <CategoryEnabled>true</CategoryEnabled>
+      <CategoryGUID>ad7616c9-0d83-417f-9af8-84beb7be19f2</CategoryGUID>
+      <CategoryLastModified>2010-02-20T20:56:14.497+01:00</CategoryLastModified>
+      <CategoryIDPath>/00001194</CategoryIDPath>
+      <CategoryNamePath>/testJakubO2_Zelenina</CategoryNamePath>
+      <CategoryLevel>0</CategoryLevel>
+      <CategoryOrder>11</CategoryOrder>
+    </cms_category>
+    <cms_category>
+      <CategoryID>1084</CategoryID>
+      <CategoryDisplayName>Network administration</CategoryDisplayName>
+      <CategoryName>NetworkAdministration</CategoryName>
+      <CategoryDescription>Category contains articles related to the network technologies</CategoryDescription>
+      <CategoryCount>0</CategoryCount>
+      <CategoryEnabled>true</CategoryEnabled>
+      <CategoryGUID>0d125a5c-9b42-433c-8272-247ab1bbb53e</CategoryGUID>
+      <CategoryLastModified>2010-02-20T20:37:31.273+01:00</CategoryLastModified>
+      <CategoryIDPath>/00001194</CategoryIDPath>
+      <CategoryNamePath>/testJakubO2_Zelenina</CategoryNamePath>
+      <CategoryLevel>0</CategoryLevel>
+      <CategoryOrder>12</CategoryOrder>
+    </cms_category>
+    <cms_category>
+      <CategoryID>1085</CategoryID>
+      <CategoryDisplayName>Programming</CategoryDisplayName>
+      <CategoryName>Programming</CategoryName>
+      <CategoryDescription>Category contains articles related to the programming</CategoryDescription>
+      <CategoryCount>0</CategoryCount>
+      <CategoryEnabled>true</CategoryEnabled>
+      <CategoryGUID>728710ef-0f57-4f7b-81a2-0ca4c5a9e986</CategoryGUID>
+      <CategoryLastModified>2010-02-20T20:56:15.013+01:00</CategoryLastModified>
+      <CategoryIDPath>/00001194</CategoryIDPath>
+      <CategoryNamePath>/testJakubO2_Zelenina</CategoryNamePath>
+      <CategoryLevel>0</CategoryLevel>
+      <CategoryOrder>13</CategoryOrder>
+    </cms_category>
+    <cms_category>
+      <CategoryID>1086</CategoryID>
+      <CategoryDisplayName>Technologies</CategoryDisplayName>
+      <CategoryName>Technologies</CategoryName>
+      <CategoryDescription>Category contains technologies related articles</CategoryDescription>
+      <CategoryCount>0</CategoryCount>
+      <CategoryEnabled>true</CategoryEnabled>
+      <CategoryGUID>4a3afd53-ec34-4abe-ae52-c9d1704118da</CategoryGUID>
+      <CategoryLastModified>2010-03-31T13:52:03.33+02:00</CategoryLastModified>
+      <CategoryIDPath>/00001194</CategoryIDPath>
+      <CategoryNamePath>/testJakubO2_Zelenina</CategoryNamePath>
+      <CategoryLevel>0</CategoryLevel>
+      <CategoryOrder>14</CategoryOrder>
+    </cms_category>
+    <cms_category>
+      <CategoryID>1251</CategoryID>
+      <CategoryDisplayName>tstJakubO2CatUnderGroundGlobal</CategoryDisplayName>
+      <CategoryName>tstJakubO2CatUnderGroundGlobal</CategoryName>
+      <CategoryDescription></CategoryDescription>
+      <CategoryCount>0</CategoryCount>
+      <CategoryEnabled>false</CategoryEnabled>
+      <CategoryGUID>816f0fb2-5a40-4667-b786-1a6f186039a4</CategoryGUID>
+      <CategoryLastModified>2011-10-03T14:53:31.677+02:00</CategoryLastModified>
+      <CategoryParentID>1243</CategoryParentID>
+      <CategoryIDPath>/00001243/00001251</CategoryIDPath>
+      <CategoryNamePath>/testJakubO2Global/tstJakubO2CatUnderGroundGlobal</CategoryNamePath>
+      <CategoryLevel>1</CategoryLevel>
+      <CategoryOrder>1</CategoryOrder>
+    </cms_category>
+  </NewDataSet>
+</cms_category>

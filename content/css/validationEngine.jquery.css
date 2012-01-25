@@ -1,0 +1,130 @@
+.inputContainer {
+     float: left;
+     position: relative;
+}
+
+.formError {
+     cursor: pointer;
+     display: block;
+     left: 300px;
+     position: absolute;
+     top: 300px;
+     z-index: 5000;
+}
+
+.ajaxSubmit {
+     background: none repeat scroll 0% 0% #55EA55;
+     border: 1px solid #999999;
+     display: none;
+     padding: 20px;
+}
+
+.formError .formErrorContent {
+     background: none repeat scroll 0% 0% #EE0101;
+     border-radius: 6px 6px 6px 6px;
+     border: 2px solid #DDDDDD;
+     box-shadow: 0pt 0pt 6px #000000;
+     color: #FFFFFF;
+     font-family: tahoma;
+     font-size: 11px;
+     padding: 4px 10px;
+     position: relative;
+     width: 150px;
+     z-index: 5001;
+}
+
+.greenPopup .formErrorContent {
+     background: none repeat scroll 0% 0% #33BE40;
+}
+
+.blackPopup .formErrorContent {
+     background: none repeat scroll 0pt 0pt #EE0101;
+     color: #FFFFFF;
+}
+
+.formError .formErrorArrow {
+     margin: -2px 0pt 0pt 13px;
+     position: relative;
+     width: 15px;
+     z-index: 5006;
+}
+
+.formError .formErrorArrowBottom {
+     box-shadow: none;
+     margin: 0px 0pt 0pt 12px;
+     top: 2px;
+}
+
+.formError .formErrorArrow div {
+     background: none repeat scroll 0% 0% #EE0101;
+     border-left: 2px solid #DDDDDD;
+     border-right: 2px solid #DDDDDD;
+     box-shadow: 0pt 2px 3px #444444;
+     display: block;
+     font-size: 0pt;
+     height: 1px;
+     line-height: 0;
+     margin: 0pt auto;
+}
+
+.formError .formErrorArrowBottom div {
+     box-shadow: none;
+}
+
+.greenPopup .formErrorArrow div {
+     background: none repeat scroll 0% 0% #33BE40;
+}
+
+.blackPopup .formErrorArrow div {
+     background: none repeat scroll 0pt 0pt #EE0101;
+     color: #FFFFFF;
+}
+
+.formError .formErrorArrow .line10 {
+     border: medium none;
+     width: 15px;
+}
+
+.formError .formErrorArrow .line9 {
+     border: medium none;
+     width: 13px;
+}
+
+.formError .formErrorArrow .line8 {
+     width: 11px;
+}
+
+.formError .formErrorArrow .line7 {
+     width: 9px;
+}
+
+.formError .formErrorArrow .line6 {
+     width: 7px;
+}
+
+.formError .formErrorArrow .line5 {
+     width: 5px;
+}
+
+.formError .formErrorArrow .line4 {
+     width: 3px;
+}
+
+.formError .formErrorArrow .line3 {
+     border-bottom: 0pt solid #DDDDDD;
+     border-left: 2px solid #DDDDDD;
+     border-right: 2px solid #DDDDDD;
+     width: 1px;
+}
+
+.formError .formErrorArrow .line2 {
+     background: none repeat scroll 0% 0% #DDDDDD;
+     border: medium none;
+     width: 3px;
+}
+
+.formError .formErrorArrow .line1 {
+     background: none repeat scroll 0% 0% #DDDDDD;
+     border: medium none;
+     width: 1px;
+}

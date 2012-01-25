@@ -1,0 +1,25 @@
+﻿<cms_uiculture version="6.0">
+  <NewDataSet>
+    <cms_uiculture>
+      <UICultureID>23</UICultureID>
+      <UICultureName>Czech</UICultureName>
+      <UICultureCode>cs-cz</UICultureCode>
+      <UICultureGUID>0f367ea3-255c-4a76-897d-73659c789bb0</UICultureGUID>
+      <UICultureLastModified>2011-03-25T16:54:36.697+01:00</UICultureLastModified>
+    </cms_uiculture>
+    <cms_uiculture>
+      <UICultureID>11</UICultureID>
+      <UICultureName>English</UICultureName>
+      <UICultureCode>en-us</UICultureCode>
+      <UICultureGUID>356a7bb3-5b11-4d83-bbc4-964aafd6d60a</UICultureGUID>
+      <UICultureLastModified>2008-08-20T13:52:32.78+02:00</UICultureLastModified>
+    </cms_uiculture>
+    <cms_uiculture>
+      <UICultureID>84</UICultureID>
+      <UICultureName>Slovak</UICultureName>
+      <UICultureCode>sk-sk</UICultureCode>
+      <UICultureGUID>15a8b635-85b7-435c-8113-5cc98e4a2986</UICultureGUID>
+      <UICultureLastModified>2011-03-28T14:08:31.53+02:00</UICultureLastModified>
+    </cms_uiculture>
+  </NewDataSet>
+</cms_uiculture>
