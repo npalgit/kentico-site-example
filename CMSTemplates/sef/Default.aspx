@@ -5,11 +5,11 @@
 </asp:Content>
 <asp:Content ID="topContent" ContentPlaceHolderID="topContent" runat="Server">
     <div class="banner">
-        <div class="link left" data-index="1">
+        <div class="link left" data-index="1" href="/Program/P-12-Program.aspx">
         </div>
-        <div class="link mid" data-index="2">
+        <div class="link mid" data-index="2" href="/Program/SELI-Program.aspx">
         </div>
-        <div class="link right" data-index="3">
+        <div class="link right" data-index="3" href="/Program/Higher-Education.aspx">
         </div>
     </div>
 </asp:Content>
@@ -47,9 +47,9 @@
                     Duis autem vel eum iriure dolor in hendrerit in vulputate velit:
                 </p>
                 <div class="social-links">
-                    <a href="https://www.facebook.com/southerneducationfoundation"></a>
-                    <a href="http://twitter.com/southernedfound"></a>
-                    <a href="http://www.youtube.com/watch?v=mb1SpaMoYQ0" target="_blank"></a>
+                    <a href="https://www.facebook.com/southerneducationfoundation" target="_blank" class="textout">...</a>
+                    <a href="http://twitter.com/southernedfound" target="_blank" class="textout">...</a>
+                    <a href="http://www.youtube.com/watch?v=mb1SpaMoYQ0" target="_blank" class="textout">...</a>
                 </div>
             </div>
             <div class="padded">

@@ -5,9 +5,11 @@
 <head id="Head1" runat="server">
     <title id="Title1" runat="server">My website</title>
     <asp:Literal runat="server" ID="ltlTags" EnableViewState="false" />
-    <asp:ContentPlaceHolder runat="server" ID="plcStyle"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder runat="server" ID="plcStyle">
+    </asp:ContentPlaceHolder>
     <script src="/content/js/common/_tools.js" type="text/javascript"></script>
-	<script src="/content/js/jquery-ui-1.8.17.custom/js/jquery-ui-1.8.17.custom.min.js" type="text/javascript"></script>	       
+    <script src="/content/js/jquery-ui-1.8.17.custom/js/jquery-ui-1.8.17.custom.min.js"
+        type="text/javascript"></script>
     <script src="/content/js/common/functions.js" type="text/javascript"></script>
     <script src="/content/js/common/plugins-ext.js" type="text/javascript"></script>
     <script src="/content/js/common/dom-load.js" type="text/javascript"></script>
@@ -16,25 +18,16 @@
     <script src="/content/js/common/jquery-ext.js" type="text/javascript"></script>
     <script src="/content/js/common/mvc-core.js" type="text/javascript"></script>
     <script src="/content/js/main.js" type="text/javascript"></script>
-    <asp:ContentPlaceHolder runat="server" ID="plcScript"></asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder runat="server" ID="plcScript">
+    </asp:ContentPlaceHolder>
 </head>
 <body class="<%=BodyClass%>" <%=BodyParameters%>>
     <form id="form1" runat="server">
     <cms:CMSPortalManager ID="CMSPortalManager1" runat="server" />
     <ajaxToolkit:ToolkitScriptManager runat="server" ID="manScript" EnableViewState="false">
     </ajaxToolkit:ToolkitScriptManager>
-    
-    <asp:ContentPlaceHolder runat="server" ID="plcContent" ></asp:ContentPlaceHolder>
-
+    <asp:ContentPlaceHolder runat="server" ID="plcContent">
+    </asp:ContentPlaceHolder>
     </form>
 </body>
 </html>
-
-
-
-
-
-
-
-
-

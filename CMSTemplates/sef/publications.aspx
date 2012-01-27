@@ -16,10 +16,11 @@
     
     <div class="search-box">
 		<span class="srch-head">Search</span>
-		<label for="title" class="lbl-title">Title</label>
+		
 		<input type="text" id="title">
-		<label for="topic" class="lbl-topic">Topic</label>
-		<select name="topic" id="topic"></select>
+		
+		<button id="searchPub" type="button" style="margin-right: 16px;">Search</button>
+<span id="viewAll" style="cursor: pointer;" class="blue">(View All)</span>
 	</div>
 	
     <div class="list">
@@ -35,7 +36,7 @@
                QueryName="custom.publ.selectAll" 
                TransformationName="custom.publ.Preview" 
                SelectedItemTransformationName="custom.publ.Default" 
-               ItemSeparator="<hr />"></cms:QueryRepeater> 
+               ItemSeparator=""></cms:QueryRepeater> 
         </table>
 
         

@@ -601,6 +601,7 @@ a.blue {
      background-repeat: no-repeat;
      height: 65px;
      left: 0pt;
+     padding-left: 9px;
      position: relative;
      top: 0pt;
      width: 712px;
@@ -631,10 +632,10 @@ a.blue {
 }
 
 .timeline div.text {
+     bottom: 0pt;
      font-size: 9px;
      overflow-x: hidden;
-     padding-left: 5px;
-     padding-top: 5px;
+     position: absolute;
 }
 
 .timeline-detail {
@@ -1005,7 +1006,8 @@ a.pdf {
 }
 
 .first {
-     width: 363px;
+     padding-right: 11px;
+     width: 368px;
 }
 
 .second {
@@ -1017,7 +1019,8 @@ a.pdf {
 }
 
 .level-1 {
-    
+     position: relative;
+     top: 9px;
 }
 
 .level-2 {

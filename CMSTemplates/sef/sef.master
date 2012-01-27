@@ -16,7 +16,7 @@
     <div id="wrap">
         <div class="top">
             <div class="top-left">
-                <a class="logo" href="/" ></a>
+                <a class="logo" href="/"></a>
             </div>
             <div class="top-right">
                 <cms:CMSListMenu runat="server" />
@@ -28,67 +28,21 @@
             </asp:ContentPlaceHolder>
         </div>
         <div class="twoColumns">
-            <div class="gray-column leftColumn">
-                <div class="leftColumn">
-                    <div class="gray-block">
-                        <h2>
-                            Upcoming</h2>
-                        <p>
-                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit:
-                        </p>
-                        <hr>
-                        <%--<span class="note">26.09</span> <span class="font-blue">Aaa sssss ddd fff eee</span>
-                        <hr>
-                        <span class="note">26.09</span> <span class="font-blue">Aaa sssss ddd fff eee</span>
-                        <hr>--%>
-
-                        <%--<cms:CMSRepeater
-                           ID="CMSRepeater1" 
-                           runat="server" 
-                           ClassNames="CMS.Event" 
-                           TransformationName="CMS.Event.List" 
-                           SelectedItemTransformationName="CMS.Event.Default"
-                           ItemSeparator="<hr />"></cms:CMSRepeater>--%>
-
-
-                        <button onclick="window.location = '/Event.aspx';" type="button">
-                            View the calender</button>
-                    </div>
-                    <div class="gray-block">
-                        <h2>
-                            What's new with SEF</h2>
-                        <p>
-                            HBCU Announces new report: Challenges in Developmental Education: Minority-Serving
-                            Institutions and Opportunity for Innovation
-                        </p>
-                        <button>
-                            Read more</button>
-                        <hr>
-                        <p>
-                            Don’t forget to register for the MSI Student Learning Outcomes Institute, Feb. 2-4,
-                            2012</p>
-                        <button>
-                            Read more</button>
-                        <hr>
-                        <p>
-                            Job opening: Program Assistant
-                        </p>
-                        <button onclick="window.location = '/blog.aspx'" type="button">Read more</button>
-                    </div>
-                    <div class="gray-block">
-                        <h2>
-                            Stay Updated</h2>
-                        <p>
-                            Hendrerit in vulputate velit:
-                        </p>
-                        <div class="transp-text-button">
-                            <input type="text">
-                            <button>
-                                Subscribe</button>
+            <cms:CMSPagePlaceholder runat="server" ID="cmsPagePlaceHolderLeft">
+                <LayoutTemplate>
+                    <div class="gray-column leftColumn">
+                        <div class="leftColumn">
+                             <cms:QueryRepeater
+                               ID="repeaterLeft" 
+                               runat="server" 
+                               QueryName="custom.htm.selectAll" 
+                               TransformationName="custom.htm.Preview" 
+                               SelectedItemTransformationName="custom.htm.Default" 
+                               ItemSeparator=""></cms:QueryRepeater> 
                         </div>
                     </div>
-                </div>
-            </div>
+                </LayoutTemplate>
+            </cms:CMSPagePlaceholder>
             <div class="rightColumn">
                 <div class="content-padding">
                     <asp:ContentPlaceHolder runat="server" ID="rightColumn">
@@ -108,5 +62,9 @@
     </div>
     <div class="clear">
     </div>
+    <center>
+        <a style="color:White" href="http://www.stonesouptech.com">Atlanta Web Design by Stone Soup</a>
+    </center>
+    
 
 </asp:Content>

@@ -596,6 +596,7 @@
 
     $('img[href],div[href],span[href],live[href],td[href],button[href],input[href]').live('click', function () {
         var el = $(this);
+        $.wait();
         window.location = el.attr('href');
     });
 

@@ -1,7 +1,15 @@
-function changeBanner(index) {
-    var url = 'url("/content/images/home-banner-' + index + '.png")';
-    console.log(url);
-    console.log($('.topContent .banner').css('background-image'));
+function changeBanner() {
+    if (!window.bannerId) {
+        window.bannerId = 2;
+    } else {
+        window.bannerId++;
+    }
+
+    if (window.bannerId == '4') {
+        window.bannerId = 1;
+    }
+
+    var url = 'url("/content/images/home-banner-' + window.bannerId + '.png")';
     $('.topContent .banner').css({
         'background-image': url
     });
@@ -69,13 +77,14 @@ $(function () {
     '/content/images/home-banner-2.png',
     '/content/images/home-banner-3.png'], function () { });
 
-    $('.timeline a').live('click', function () {
+    $('.timeline .link').live('click', function () {
         var other = $('.timeline a.active');
         var el = $(this);
         other.removeClass('active');
         el.addClass('active');
-        var target = $('.' + el.parent().attr('data-rel'));
+        var target = $('.' + el.attr('data-rel'));
         if (target.size() > 0) {
+            debugger;
             $('html, body').animate({
                 scrollTop: target.offset().top
             }, 1000);
@@ -86,10 +95,24 @@ $(function () {
         scrollToTop();
     });
 
-    $('.banner .link').live('click', function () {
+    $('#subs').live('click', function () {
         var el = $(this);
-        var index = el.attr('data-index');
-        changeBanner(index);
+        $.post('/cmsTemplates/sef/subs.ashx', { subsEmail: $('#subsEmail').val() }, function (data) {
+            $.showMsg('Thank You for subscription.');
+        });
     });
+
+    window.setInterval(changeBanner, 4000);
+
+    $('#searchPub').live('click', function () {
+        var el = $('#title');
+        $('.first div').closest('tr').hide();
+        $('.first div:contains(' + el.val() + ')').closest('tr').show();
+    });
+
+    $('#viewAll').live('click', function () {
+        $('.first div').closest('tr').show();
+    });
+
 
 });
