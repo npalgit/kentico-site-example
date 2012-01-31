@@ -44,7 +44,7 @@
                 <label>
                     Email Address</label>
                 <div class="ctrl">
-                    <input type="text" name="email" id="email" class="validate[required]">
+                    <input type="text" name="email" id="email" class="validate[required,custom[email]]">
                 </div>
             </div>
             <div class="input-field">

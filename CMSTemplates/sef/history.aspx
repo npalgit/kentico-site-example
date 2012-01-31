@@ -60,7 +60,7 @@
                        QueryName="custom.history.selectAll" 
                        TransformationName="custom.history.Preview" 
                        SelectedItemTransformationName="custom.history.Default" 
-                       ItemSeparator="<br /><br /><br />"></cms:QueryRepeater>
+                       ItemSeparator="<br><hr style='width: 60%;margin: auto' /><br>"></cms:QueryRepeater>
                 </div>
             </div>
         </div>

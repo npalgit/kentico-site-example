@@ -29,7 +29,15 @@ $(function () {
         var form = $('form');
         form.validationEngine('attach');
         if (form.validationEngine('validate')) {
-            $.showMsg('Thank you! We will contact with you');
+            $.wait();
+            $.post('/cmsTemplates/sef/contact.ashx',
+            form.serialize(),
+            function (data) {
+
+                $.unwait();
+            
+                $.showMsg('Thank you! We will contact with you');
+            });
         }
         return false;
     });
@@ -80,11 +88,10 @@ $(function () {
     $('.timeline .link').live('click', function () {
         var other = $('.timeline a.active');
         var el = $(this);
-        other.removeClass('active');
+        $('.active').removeClass('active');
         el.addClass('active');
         var target = $('.' + el.attr('data-rel'));
         if (target.size() > 0) {
-            debugger;
             $('html, body').animate({
                 scrollTop: target.offset().top
             }, 1000);

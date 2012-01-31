@@ -601,7 +601,7 @@ a.blue {
      background-repeat: no-repeat;
      height: 65px;
      left: 0pt;
-     padding-left: 9px;
+     padding-left: 0px;
      position: relative;
      top: 0pt;
      width: 712px;
@@ -611,7 +611,8 @@ a.blue {
 .timeline div.link {
      display: inline-block;
      height: 65px;
-     width: 67px;
+     margin-right: 2px;
+     width: 64px;
 }
 
 .timeline a {
@@ -634,6 +635,7 @@ a.blue {
 .timeline div.text {
      bottom: 0pt;
      font-size: 9px;
+     margin-left: 10px;
      overflow-x: hidden;
      position: absolute;
 }
@@ -855,6 +857,7 @@ form .input-field {
 
 form .input-field label {
      display: inline-block;
+     line-height: 45px;
      position: absolute;
      top: 0pt;
      width: 150px;
@@ -926,6 +929,7 @@ a.pdf {
 
 .picbox .left {
      float: left;
+     opacity: 0.7;
      width: 490px;
 }
 
@@ -1043,4 +1047,17 @@ a.pdf {
 
 .zero {
      width: 50px;
+}
+
+.timeline div.link:hover, .timeline div.link.active {
+     outline: 6px solid #C8DAE3;
+}
+
+img[src="/content/images/empty.png"] {
+     margin: 0pt;
+}
+
+.picbox .left:hover, .picbox .left.active {
+     cursor: pointer;
+     opacity: 1;
 }
